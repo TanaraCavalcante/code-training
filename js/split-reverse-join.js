@@ -4,7 +4,6 @@
 // "john McClane" --> "McClane john"
 
 function nameShuffler(str){
-    //Shuffle It
     return str.split(' ').reverse().join(' ');
   }
 
@@ -17,3 +16,12 @@ function nameShuffler(str){
 // Sam Harris => S.H
 // patrick feeney => P.F
 
+function abbrevName(name) {
+    //! Divide o nome em duas partes
+    const nameParts = name.split(" ");
+    
+    //! Pega a primeira letra de cada parte, converte para maiúsculas e junta com um ponto
+    const initials = nameParts[0][0].toUpperCase() + "." + nameParts[1][0].toUpperCase();
+    
+    return initials;
+}
