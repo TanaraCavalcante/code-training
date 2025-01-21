@@ -20,3 +20,18 @@ function minMax(arr){
 
 // Tarefa
 // Dado um array de inteiros, remova o menor valor. Não altere o array/lista original. Se houver vários elementos com o mesmo valor, remova aquele com o índice mais baixo. Se você obtiver um array/lista vazio, retorne um array/lista vazio.
+
+function removeSmallest(numbers) {
+    //se for vazio retorna vazio!
+    if(numbers.length === 0) return [];
+    
+    //encontrar os minimos
+    let min = Math.min(...numbers);
+    
+    //encontrar o index do menor valor
+    let minIndex = numbers.indexOf(min);
+    
+    //retorno o array excluindo o menor valor
+    return [...numbers.slice(0, minIndex), ...numbers.slice(minIndex + 1)];
+   
+  }
