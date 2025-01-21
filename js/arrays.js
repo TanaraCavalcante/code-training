@@ -4,3 +4,9 @@
 // Tarefa
 // Escreva uma função que retorne o número mínimo e máximo da lista/matriz fornecida.
 
+function minMax(arr){
+    let max = Math.max(...arr);
+    let min = Math.min(...arr);
+    
+    return [min, max];
+  }
