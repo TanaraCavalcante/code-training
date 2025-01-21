@@ -8,3 +8,7 @@
 // 2,2,2 -> true
 // -5,1,3 -> false
 
+function isTriangle(a,b,c){
+    // Verifica se os três lados são positivos e se satisfazem a desigualdade triangular
+    return a > 0 && b > 0 && c > 0 && a + b > c && a + c > b && b + c > a;
+ }
