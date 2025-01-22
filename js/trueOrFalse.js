@@ -23,3 +23,7 @@ function isTriangle(a,b,c){
 //  solution('abc', 'bc') // retorna true
 //  solution('abc', 'd') // retorna false
 
+function solution(str, ending){
+    // complete
+   return str.endsWith(ending);
+  }
