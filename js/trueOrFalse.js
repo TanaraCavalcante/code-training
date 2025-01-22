@@ -27,3 +27,22 @@ function solution(str, ending){
     // complete
    return str.endsWith(ending);
   }
+
+  //!QUESTION
+//   Um quadrado de quadrados
+// Você gosta de blocos de construção. Você gosta especialmente de blocos de construção que são quadrados. E o que você gosta ainda mais é de organizá-los em um quadrado de blocos de construção quadrados!
+// No entanto, às vezes, você não consegue organizá-los em um quadrado. Em vez disso, você acaba com um retângulo comum! Essas coisas malditas! Se você tivesse uma maneira de saber se está trabalhando em vão no momento... Espere! É isso! Você só precisa verificar se o seu número de blocos de construção é um quadrado perfeito.
+
+// Tarefa
+// Dado um número inteiro, determine se é um número quadrado
+// Em matemática, um número quadrado ou quadrado perfeito é um inteiro que é o quadrado de um inteiro; em outras palavras, é o produto de algum inteiro consigo mesmo.
+// Os testes sempre usarão algum número integral, então não se preocupe com isso em linguagens de tipagem dinâmica.
+
+// Exemplos
+// -1 => falso
+// 0 => verdadeiro
+// 3 => falso
+// 4 => verdadeiro
+// 25 => verdadeiro
+// 26 => falso
+
