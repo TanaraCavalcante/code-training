@@ -46,3 +46,12 @@ function solution(str, ending){
 // 25 => verdadeiro
 // 26 => falso
 
+const isSquare = function(n){
+    if (n < 0) return false;
+    
+    //calcula raiz quadrada
+    const sqrt = Math.sqrt(n);
+    
+     return Number.isInteger(sqrt);
+    
+  }
