@@ -1,3 +1,4 @@
+//! QUESTION
 // Dados dois inteiros a e b, que podem ser positivos ou negativos, encontre a soma de todos os inteiros entre eles e incluindo-os e retorne-a. Se os dois números forem iguais, retorne a ou b.
 
 // Nota: a e b não são ordenados!
