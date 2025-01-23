@@ -35,3 +35,12 @@ function removeSmallest(numbers) {
     return [...numbers.slice(0, minIndex), ...numbers.slice(minIndex + 1)];
    
   }
+  
+
+  //! QUESTION
+// Sua tarefa é criar uma função que possa receber qualquer inteiro não negativo como argumento e retorná-lo com seus dígitos em ordem decrescente. Essencialmente, reorganize os dígitos para criar o maior número possível.
+
+// Exemplos:
+// Entrada: 42145 Saída: 54421
+// Entrada: 145263 Saída: 654321
+// Entrada: 123456789 Saída: 987654321
