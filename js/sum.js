@@ -26,3 +26,18 @@ function getSum(a, b){
   return sum;
 
   }
+
+  //!QUESTION
+//   Dada uma lista de inteiros, determine se a soma de seus elementos é ímpar ou par.
+// Dê sua resposta como uma string correspondendo a "ímpar" ou "par".
+// Se o array de entrada estiver vazio, considere-o como: [0] (array com um zero).
+
+// Exemplos:
+// Entrada: [0]
+// Saída: "par"
+
+// Entrada: [0, 1, 4]
+// Saída: "ímpar"
+
+// Entrada: [0, -1, -5]
+// Saída: "par"
