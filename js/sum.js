@@ -13,6 +13,16 @@
 function getSum(a, b){
     if( a === b) return a;
     
-    return a + b;
-     //Good luck!
+   // Determina o menor e o maior número entre a e b
+  const min = Math.min(a, b);
+  const max = Math.max(a, b);
+
+  // Calcula a soma dos números entre min e max (inclusive)
+  let sum = 0;
+  for (let i = min; i <= max; i++) {
+    sum += i;
+  }
+
+  return sum;
+
   }
