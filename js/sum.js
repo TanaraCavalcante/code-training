@@ -41,3 +41,18 @@ function getSum(a, b){
 
 // Entrada: [0, -1, -5]
 // Saída: "par"
+
+function oddOrEven(array) {
+    if(array.length === 0) return "even";
+    
+    let sum = 0;
+    for(let i = 0; i < array.length; i++){
+      sum += array[i];
+    }
+    
+    if(sum % 2 === 0){
+      return "even"
+    }else{
+      return "odd"
+    }
+  }
