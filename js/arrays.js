@@ -35,7 +35,7 @@ function removeSmallest(numbers) {
     return [...numbers.slice(0, minIndex), ...numbers.slice(minIndex + 1)];
    
   }
-  
+
 
   //! QUESTION
 // Sua tarefa é criar uma função que possa receber qualquer inteiro não negativo como argumento e retorná-lo com seus dígitos em ordem decrescente. Essencialmente, reorganize os dígitos para criar o maior número possível.
@@ -44,3 +44,14 @@ function removeSmallest(numbers) {
 // Entrada: 42145 Saída: 54421
 // Entrada: 145263 Saída: 654321
 // Entrada: 123456789 Saída: 987654321
+
+function descendingOrder(n){
+  // Converte o número em uma string, depois em um array de dígitos
+  const digits = n.toString().split('');
+  
+  // Ordena os dígitos em ordem decrescente
+  const sortedDigits = digits.sort((a, b) => b - a);
+  
+  // Junta os dígitos de volta em uma string e converte para número
+  return parseInt(sortedDigits.join(''), 10);
+}
