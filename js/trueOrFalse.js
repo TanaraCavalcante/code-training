@@ -62,3 +62,11 @@ const isSquare = function(n){
 
 // Considerando esses fatores, escreva uma função que diga se é possível chegar à bomba ou não.
 // A função deve retornar true se for possível e false se não for.
+
+const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
+    // Calcule a distância máxima que o carro pode percorrer
+    const maxDistance = mpg * fuelLeft;
+  
+    // Compare com a distância até a bomba e retorne o resultado
+    return maxDistance >= distanceToPump;
+  };
