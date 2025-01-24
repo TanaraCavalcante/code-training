@@ -55,3 +55,10 @@ const isSquare = function(n){
      return Number.isInteger(sqrt);
     
   }
+
+//! QUESTION
+
+// Você estava acampando com seus amigos longe de casa, mas quando chega a hora de voltar, você percebe que seu combustível está acabando e a bomba mais próxima está a 50 milhas de distância! Você sabe que, em média, seu carro roda a cerca de 25 milhas por galão. Restam 2 galões.
+
+// Considerando esses fatores, escreva uma função que diga se é possível chegar à bomba ou não.
+// A função deve retornar true se for possível e false se não for.
