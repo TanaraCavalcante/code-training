@@ -79,3 +79,8 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
 // A função precisa retornar true ou false.
 // Os números podem ser positivos ou negativos, inteiros ou flutuantes.
 // Os flutuantes com parte decimal diferente de zero são considerados UNeven para este kata.
+
+function testEven(n) {
+    //Your awesome code here!
+   return Number.isInteger(n) && n % 2 === 0;
+}
