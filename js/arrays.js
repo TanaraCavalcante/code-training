@@ -55,3 +55,20 @@ function descendingOrder(n){
   // Junta os dígitos de volta em uma string e converte para número
   return parseInt(sortedDigits.join(''), 10);
 }
+
+//! QUESTION
+
+// Dado um array de uns e zeros, converta o valor binário equivalente para um inteiro.
+// Por exemplo: [0, 0, 0, 1] é tratado como 0001, que é a representação binária de 1.
+
+// Exemplos:
+
+// Teste: [0, 0, 0, 1] ==> 1
+// Teste: [0, 0, 1, 0] ==> 2
+// Teste: [0, 1, 0, 1] ==> 5
+// Teste: [1, 0, 0, 1] ==> 9
+// Teste: [0, 0, 1, 0] ==> 2
+// Teste: [0, 1, 1, 0] ==> 6
+// Teste: [1, 1, 1, 1] ==> 15
+// Teste: [1, 0, 1, 1] ==> 11
+// No entanto, as matrizes podem ter comprimentos variados, não limitados apenas a 4.
