@@ -70,3 +70,12 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
     // Compare com a distância até a bomba e retorne o resultado
     return maxDistance >= distanceToPump;
   };
+
+
+//! QUESTION
+
+// Neste Kata, estamos passando um número (n) para uma função.
+// Seu código determinará se o número passado é par (ou não).
+// A função precisa retornar true ou false.
+// Os números podem ser positivos ou negativos, inteiros ou flutuantes.
+// Os flutuantes com parte decimal diferente de zero são considerados UNeven para este kata.
