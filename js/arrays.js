@@ -72,3 +72,9 @@ function descendingOrder(n){
 // Teste: [1, 1, 1, 1] ==> 15
 // Teste: [1, 0, 1, 1] ==> 11
 // No entanto, as matrizes podem ter comprimentos variados, não limitados apenas a 4.
+
+
+const binaryArrayToNumber = arr => {
+  // your code
+ return parseInt(arr.join(''), 2);
+};
