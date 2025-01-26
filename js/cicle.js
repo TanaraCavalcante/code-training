@@ -15,3 +15,20 @@
 // nosso time sempre joga 10 partidas no campeonato
 // 0 <= x <= 4
 // 0 <= y <= 4
+
+function points(games) {
+    let totalPoints = 0;
+ 
+   for (let game of games) {
+     const [x, y] = game.split(":").map(Number);
+ 
+     if (x > y) {
+       totalPoints += 3; // Vitória
+     } else if (x === y) {
+       totalPoints += 1; // Empate
+     }
+     // Não é necessário adicionar nada para derrota (x < y), pois o totalPoints não muda.
+   }
+ 
+   return totalPoints;
+ }
