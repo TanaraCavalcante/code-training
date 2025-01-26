@@ -10,3 +10,8 @@ function simpleMultiplication(number) {
    return number * 9;
  }
 }
+
+//! QUESTION
+
+// Agora você precisa escrever uma função que receba um argumento e retorne o quadrado dele.
+
