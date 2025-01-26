@@ -15,3 +15,6 @@ function simpleMultiplication(number) {
 
 // Agora você precisa escrever uma função que receba um argumento e retorne o quadrado dele.
 
+function square(x){
+  return x**2;
+}
