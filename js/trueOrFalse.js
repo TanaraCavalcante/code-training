@@ -84,3 +84,14 @@ function testEven(n) {
     //Your awesome code here!
    return Number.isInteger(n) && n % 2 === 0;
 }
+
+//! QUESTION
+
+//Escreva uma função chamada setAlarm/set_alarm/set-alarm/setalarm (dependendo do idioma) que receba dois parâmetros. O primeiro parâmetro, employing, é true sempre que você estiver empregado e o segundo parâmetro, vacation, é true sempre que você estiver de férias.
+//A função deve retornar true se você estiver empregado e não de férias (porque essas são as circunstâncias sob as quais você precisa definir um alarme). Caso contrário, deve retornar false. Exemplos:
+
+//employed | vacation
+//true | true => false
+//true | false => true
+//false | true => false
+//false | false => false
