@@ -11,3 +11,7 @@ function filter_list(l) {
 //Retorna o número (contagem) de vogais na string fornecida.
 //Consideraremos a, e, i, o, u como vogais para este Kata (mas não y).
 //A string de entrada consistirá apenas de letras minúsculas e/ou espaços.
+
+function getCount(str) {
+    return str.split('').filter(char => 'aeiou'.includes(char)).length;
+}
